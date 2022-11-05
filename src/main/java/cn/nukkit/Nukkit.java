@@ -1,6 +1,5 @@
 package cn.nukkit;
 
-import cn.nukkit.network.protocol.ProtocolInfo;
 import cn.nukkit.utils.ServerKiller;
 import com.google.common.base.Preconditions;
 import io.netty.util.ResourceLeakDetector;
@@ -37,11 +36,7 @@ import java.io.IOException;
 public class Nukkit {
     public final static String VERSION = "1.0.1";
     public final static String API_VERSION = "1.0.0";
-    public final static String CODENAME = "";
-    @Deprecated
-    public final static String[] MINECRAFT_VERSION = ProtocolInfo.MINECRAFT_VERSION;
-    @Deprecated
-    public final static String MINECRAFT_VERSION_NETWORK = ProtocolInfo.MINECRAFT_VERSION_NETWORK;
+    public final static String CODENAME = "<beta>";
 
     public final static String PATH = System.getProperty("user.dir") + "/";
     public final static String DATA_PATH = System.getProperty("user.dir") + "/";

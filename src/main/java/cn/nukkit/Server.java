@@ -1133,7 +1133,7 @@ public class Server {
     }
 
     public String getVersion() {
-        return Arrays.toString(ProtocolInfo.MINECRAFT_VERSION);
+        return ProtocolInfo.MINECRAFT_VERSION;
     }
 
     public String getApiVersion() {
