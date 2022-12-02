@@ -9,21 +9,33 @@ repositories {
 }
 
 dependencies {
-    implementation("org.fusesource.jansi:jansi:2.4.0")
-    implementation("com.google.guava:guava:23.0")
-    implementation("com.google.code.gson:gson:2.10")
-    implementation("org.yaml:snakeyaml:1.33")
-    implementation("net.minecrell:terminalconsoleappender:1.3.0")
+    implementation("jline:jline:2.14.6")
     implementation("org.jline:jline-terminal:3.21.0")
     implementation("org.jline:jline-terminal-jna:3.21.0")
     implementation("org.jline:jline-reader:3.21.0")
+
+
+    implementation("com.google.guava:guava:31.1-jre")
+    implementation("com.google.code.gson:gson:2.10")
+
+    implementation("org.fusesource.jansi:jansi:2.4.0")
+
+    implementation("org.yaml:snakeyaml:1.33")
+
+    implementation("net.minecrell:terminalconsoleappender:1.3.0")
+
     implementation("org.apache.logging.log4j:log4j-api:2.19.0")
     implementation("org.apache.logging.log4j:log4j-core:2.19.0")
-    implementation("net.sf.jopt-simple:jopt-simple:5.0.4")
-    implementation("org.iq80.leveldb:leveldb:0.12")
-    implementation("io.netty:netty-all:4.1.85.Final")
-    implementation("com.github.dblock:oshi-core:3.4.0")
     implementation("org.apache.commons:commons-lang3:3.12.0")
+
+    implementation("net.sf.jopt-simple:jopt-simple:5.0.4")
+
+    implementation("org.iq80.leveldb:leveldb:0.12")
+
+    implementation("io.netty:netty-all:4.1.85.Final")
+
+    implementation("com.github.dblock:oshi-core:3.4.0")
+
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.9.0")
 

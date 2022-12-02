@@ -10,6 +10,7 @@ replay_pid*
 !gradle-wrapper.jar
 !libs/*
 *.zip
+*.iml
 *.tar.gz
 *.log
 *.class
